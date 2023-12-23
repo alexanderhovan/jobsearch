@@ -111,4 +111,4 @@ Here we can get a fully detailed description about any book which is within the 
 
 However, parts of the code need to be fixed. The text is retreived perfectly but the app was using initially data from JSON and not from the database so for now it will not change the content of literatures page, for example. Also, there is an issue which needs to be fixed with the last part, since despite the jsonify part, since there was an issue: Content-Type was not 'application/json' for the very last part, which can be easily fixed by editing the function where we fetch the information.
 
-<img width="534" alt="Screenshot 2023-12-23 at 20 34 49" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/531ef03b-1a37-4a26-891e-4b82adf9c4c3">
+
