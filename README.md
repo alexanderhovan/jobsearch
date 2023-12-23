@@ -80,4 +80,11 @@ Now, let's go back and access our templates directory. There, you're supposed to
 Each respective HTML template represents a page where. You can also see how they are linked to the respective def in pythons, so there are more templates than parts of the app.
 
 Now that the set up has been complete, let's look at this app in detail.
-#
+
+#The App.
+
+So, let's get started with the login page. We need to go to 'http//:ourexternalurl:5000/login.
+<img width="1338" alt="Screenshot 2023-12-23 at 20 22 18" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/73ed6a64-1c98-4d7e-ab13-382b96a26d9e">
+Here we can either log in as admin, using the credentials user = 'admin', password = 'Cloud1@' or go to 'create an account'.
+
+
