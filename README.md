@@ -109,4 +109,4 @@ Now, let's log in as admin and navigate to 'add books'.
 
 Here we can get a fully detailed description about any book which is within the external Wiki Book API. We can also add a book to the database which was created for it - and for user accounts - in the models.py. 
 
-However, parts of the code need to be fixed. The text is retreived perfectly but the app was using initially data from JSON and not from the database so for now it will not change the content of literatures page, for example. Also, there is an issue which needs to be fixed with the last part, since 
+However, parts of the code need to be fixed. The text is retreived perfectly but the app was using initially data from JSON and not from the database so for now it will not change the content of literatures page, for example. Also, there is an issue which needs to be fixed with the last part, since despite the jsonify part, since there was an issue: Content-Type was not 'application/json' for the very last part, which can be easily fixed by editing the function where we fetch the information.
