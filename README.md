@@ -104,4 +104,9 @@ From there we can choose the country where the book is from and then pick a book
 
 We can then go to the 'add book' tab if we want to add a new book to this list if people have a new book to offer, however, due to the rights restrictions, that can only be done if you're an admin, but these rights can be changed. There are multiple ways to add rights with the easiest being that before accessing the def add_book it is checked what username your account has, or we can use the @admin_required code, yet we'd need to change a part of the data base and add some additional code to be executed.
 
-Now, let's log in as admin and navigate to 'add books'
+Now, let's log in as admin and navigate to 'add books'.
+<img width="534" alt="Screenshot 2023-12-23 at 20 34 49" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/26341f6f-d325-4aae-9800-46d944a1faa9">
+
+Here we can get a fully detailed description about any book which is within the external Wiki Book API. We can also add a book to the database which was created for it - and for user accounts - in the models.py. 
+
+However, parts of the code need to be fixed. The text is retreived perfectly but the app was using initially data from JSON and not from the database so for now it will not change the content of literatures page, for example. Also, there is an issue which needs to be fixed with the last part, since 
