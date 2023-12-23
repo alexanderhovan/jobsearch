@@ -88,3 +88,20 @@ So, let's get started with the login page. We need to go to 'http//:ourexternalu
 Here we can either log in as admin, using the credentials user = 'admin', password = 'Cloud1@' or go to 'create an account'.
 
 
+Let's create an account.
+
+<img width="1056" alt="Screenshot 2023-12-23 at 20 26 26" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/fdd7cafa-d172-420b-82d9-9fc301ff0bdf">
+
+Here we enter our credentials that will then be added to the cloud database.
+
+After we create a user account we can login and go to the next page. 
+<img width="748" alt="Screenshot 2023-12-23 at 20 28 00" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/e1859a16-a6f7-41c9-a3d7-2545c1f686a3">
+
+<img width="641" alt="Screenshot 2023-12-23 at 20 28 15" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/875a76ad-5508-4561-980a-849f737c90c9">
+
+<img width="1415" alt="Screenshot 2023-12-23 at 20 28 32" src="https://github.com/alexanderhovan/jobsearch/assets/148468625/729bb297-8698-4c58-b4f5-869a7e34b6fd">
+From there we can choose the country where the book is from and then pick a book and get the detailed information about it.
+
+We can then go to the 'add book' tab if we want to add a new book to this list if people have a new book to offer, however, due to the rights restrictions, that can only be done if you're an admin, but these rights can be changed. There are multiple ways to add rights with the easiest being that before accessing the def add_book it is checked what username your account has, or we can use the @admin_required code, yet we'd need to change a part of the data base and add some additional code to be executed.
+
+Now, let's log in as admin and navigate to 'add books'
