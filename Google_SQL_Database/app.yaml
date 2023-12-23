@@ -1,0 +1,8 @@
+#app.yaml
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: root
+  CLOUD_SQL_PASSWORD: 147369
+  CLOUD_SQL_DATABASE_NAME: cc-mini-project-db
+  CLOUD_SQL_CONNECTION_NAME: tranquil-lore-376711:us-central1:cc-mini-project
